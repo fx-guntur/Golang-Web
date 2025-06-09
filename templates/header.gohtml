@@ -1,3 +1,4 @@
+{{define "header"}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +8,4 @@
     <title>{{.Title}}</title>
 </head>
 <body>
-    Name : {{.Name}}<br/>
-    {{with .Address}}
-    Address Street : {{.Street}}<br/>
-    Address City : {{.City}}<br/>
-    {{else}}
-    Anda tidak punya alamat
-    {{end}}
-</body>
-</html>
+{{end}}
